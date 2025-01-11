@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <div className="text-center md:mt-60 mt-20" id="projects">
             <TextEffect per='char' preset='fade' className="text-zinc-500 text-lg">
-                Veja alguns projetos que estão no ar!
+                VEJA ALGUNS PROJETOS QUE ESTÃO NO AR!
      
             </TextEffect>
             <hr className="mt-10" />
@@ -83,7 +83,7 @@ export default function Projects() {
                         
             <div className="md:mt-60 mt-20 justify-center flex flex-col items-center">
             <div className="text-center my-10">
-                            <h1 className="text-lg text-zinc-500">Uma demonstração!</h1>
+                            <h1 className="text-lg text-zinc-500">UMA DEMOSTRAÇÃO!</h1>
                             <hr />
                         </div>
                 <video width="900" controls autoPlay

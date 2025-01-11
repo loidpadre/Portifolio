@@ -6,7 +6,7 @@ export default function Tecnology(){
     return(
         <div className="text-center md:mt-60 mt-20">
             <TextEffect per='char' preset='fade' className="text-zinc-500 text-lg">
-                            Tecnologias que Domino!
+                            TECNOLOGIAS QUE DOMINO!
             </TextEffect>
             <div className="md:flex mt-10 md:flex-row justify-center items-center md:gap-10 flex flex-col gap-5 ">
                 <SiJavascript size={50}/>

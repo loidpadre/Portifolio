@@ -8,7 +8,7 @@ export default function Hero() {
                 Criando Soluções Web e Mobile com Inovação e Eficiência.
             </TextEffect>
             <TextEffect per='char' preset='slide' className="md:text-4xl mt-4 font-semibold">
-                DESENVOLVERDOR DE SOFTWARE
+                DESENVOLVEDOR DE SOFTWARE
             </TextEffect>
             <TextEffect preset='fade-in-blur' speedReveal={1.1} speedSegment={0.3} className="text-zinc-400">
             Olá, meu nome é Loid Padre. Sou Desenvolvedor de Software e estudante de Engenharia de Computação na Universidade Federal de Santa Catarina (UFSC). Tenho experiência em JavaScript, TypeScript, C++ e ferramentas como React.js, Next.js, React Native e Node.js. Também sou proficiente em tecnologias de frontend como HTML5, CSS3, Tailwind CSS e Styled-Components, além de ferramentas de design como Figma.
