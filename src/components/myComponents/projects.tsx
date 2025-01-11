@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { TextEffect } from "../ui/text-effect";
 import { Tilt } from "../ui/tilt";
+import Image from "next/image";
 
 export default function Projects() {
     return (
@@ -20,7 +21,9 @@ export default function Projects() {
                         }}
                         className='flex max-w-[400px] flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900'
                     >
-                        <img
+                        <Image
+                        height={500}
+                            width={500}
                             src='/habitue.png'
                             alt='Ghost in the shell - Kôkaku kidôtai'
                             className='h-48 w-full object-cover'
@@ -40,9 +43,11 @@ export default function Projects() {
                         }}
                         className='flex max-w-[400px] flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900'
                     >
-                        <img
+                        <Image
+                        height={500}
                             src='/banner.png'
                             alt='habitue'
+                            width={500}
                             className='h-48 w-full object-cover'
                         />
                         <div className='p-4 py-6'>
@@ -60,7 +65,9 @@ export default function Projects() {
                         }}
                         className='flex max-w-[400px] flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900'
                     >
-                        <img
+                        <Image
+                            width={500}
+                            height={500}
                             src='/shop.png'
                             alt='Ghost in the shell - Kôkaku kidôtai'
                             className='h-48 w-full object-cover'

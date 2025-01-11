@@ -1,6 +1,5 @@
-'use client';
 import { ReactNode } from 'react';
-import { motion, Variants } from 'motion/react';
+import { motion, Variants } from 'framer-motion';
 import React from 'react';
 
 export type PresetType =
@@ -23,8 +22,8 @@ export type AnimatedGroupProps = {
     item?: Variants;
   };
   preset?: PresetType;
-  as?: React.ElementType;
-  asChild?: React.ElementType;
+  as?: React.ElementType;  // Usamos ElementType que é mais flexível
+  asChild?: React.ElementType;  // Usamos ElementType aqui também
 };
 
 const defaultContainerVariants: Variants = {
@@ -152,9 +151,9 @@ function AnimatedGroup({
   const containerVariants = variants?.container || selectedVariants.container;
   const itemVariants = variants?.item || selectedVariants.item;
 
-  const MotionComponent = motion.create(as as keyof JSX.IntrinsicElements);
-
-  const MotionChild = motion.create(asChild as keyof JSX.IntrinsicElements);
+  // Usamos motion diretamente em vez de motion.create
+  const MotionComponent = motion(as);  // Aqui não há necessidade de usar "as keyof JSX.IntrinsicElements"
+  const MotionChild = motion(asChild);
 
   return (
     <MotionComponent

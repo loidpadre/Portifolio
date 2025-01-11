@@ -1,5 +1,8 @@
+"use client"
 import Image from "next/image";
 import { AnimatedGroup } from "../ui/animated-group";
+
+
 
 export default function Banner(){
     return(
